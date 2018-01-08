@@ -32,3 +32,77 @@ nav a {
 
 
 
+.maincontent {
+    display: flex;
+    justify-content: space-between;
+    flex: 1 1 0;
+}
+
+.maincontent div {
+    border: 1px solid black;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+    width: 300px;
+}
+
+.column.small {
+    width: 240px;
+}
+
+.article p {
+    font-family: Georgia;
+    font-size: 17px;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic p {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    height: 240px;
+}
+
+#phish {
+    background-image: url(../images/main.png);
+    
+}
+
+#phish p {
+    font-size: 40px;
+}
+
+#fall {
+    background-image: url(../images/fall%20season.png);
+}
+
+#camera {
+    background-image: url(../images/camera.png);
+}
+
+#cat {
+    background-image: url(../images/cat.png);
+}
+
+#cookie {
+    background-image: url(../images/cookie.png);
+    height: 240px;
+}
+
+
+
+
+
