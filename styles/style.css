@@ -30,17 +30,19 @@ nav a {
     color: black;
 }
 
-
+/*  MAIN CONTENT  */
 
 .maincontent {
     display: flex;
     justify-content: space-between;
     flex: 1 1 0;
-    margin-top: 20px;
+    margin: 20px 0;
+    width: 1250px;
 }
 
-.maincontent div {
-    //border: 1px solid black;
+h2 {
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .column {
@@ -51,6 +53,7 @@ nav a {
 
 .column.large {
     width: 630px;
+    
 }
 
 .sub {
@@ -81,7 +84,7 @@ nav a {
     font-weight: bold;
     font-size: 30px;
     color: white;
-    
+    text-align: center;
 }
 
 #phish {
@@ -103,6 +106,8 @@ nav a {
 
 #cat {
     background-image: url(../images/cat.png);
+    text-align: center;
+    padding: 0 20px;
 }
 
 #cookie {
@@ -114,10 +119,11 @@ nav a {
     margin-left: 20px;
 }
 
-.news h2 {
+.news h3 {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: bold;
+    text-align: center;
 }
 
 .bites {
@@ -167,6 +173,7 @@ footer {
 footer span {
     padding: 10px;
 }
+
 
 .foot1 {
     display: flex;
